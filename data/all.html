@@ -1,0 +1,92 @@
+<!DOCTYPE html><html><head>
+ <title>ESP8266 IRserver</title>
+ <meta name='viewport' content='width=device-width, user-scalable=no'>
+ <meta name='apple-mobile-web-app-capable' content='yes'>
+ <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+ <style type='text/css'>
+  body { height:100%; width:100%; margin: 0px; overflow: hidden; }
+  canvas { border: none;}
+  body #wrapper{ width:100%; height:100%; min-height:100%;  overflow: hidden;  position: fixed; }
+  button {font-size: 0.8em;font-weight: bold; width:20%; height:2em;}
+ </style>
+</head>
+<body>
+<div style='text-align:center;vertical-align:middle'>
+
+<form action='' method='GET'>
+<button type='submit' name='code' value='0x807D08F7'>電源</button>
+<button type='submit' name='code' value='0x807D629D'>映像</button>
+<button type='submit' name='code' value='0x807DA25D'>ZOOM</button>
+<button type='submit' name='code' value='0x807DC23D'>▲</button>
+<br><br>
+<button type='submit' name='code' value='0x807D2FD'>青</button>
+<button type='submit' name='code' value='0x807DF807'>赤</button>
+<button type='submit' name='code' value='0x807DFF'>緑</button>
+<button type='submit' name='code' value='0x807D827D'>黄</button>
+<br><br>
+<button type='submit' name='code' value='0x807DD02F'>1</button>
+<button type='submit' name='code' value='0x807D30CF'>2</button>
+<button type='submit' name='code' value='0x807DB04F'>3</button>
+<br>
+<button type='submit' name='code' value='0x807D708F'>4</button>
+<button type='submit' name='code' value='0x807DF00F'>5</button>
+<button type='submit' name='code' value='0x807D807F'>6</button>
+<br>
+<button type='submit' name='code' value='0x807D8877'>7</button>
+<button type='submit' name='code' value='0x807D48B7'>8</button>
+<button type='submit' name='code' value='0x807DC837'>9</button>
+<br>
+<button type='submit' name='code' value='0x807DA05F'>クリア</button>
+<button type='submit' name='code' value='0x807D50AF'>0</button>
+<button type='submit' name='code' value='0x807D42BD'>サーチ</button>
+<br><br>
+<button type='submit' name='code' value='0x807D9A65'>BOOK</button>
+<button type='submit' name='code' value='0x807D609F'>設定</button>
+<button type='submit' name='code' value='0x807DEA15'>PROG</button>
+<button type='submit' name='code' value='0x807D22DD'>リピート</button>
+<br>
+<button type='submit' name='code' value='0x807D5AA5'>PRE</button>　　
+<button type='submit' name='code' value='0x807DB847'>再生</button>　　
+<button type='submit' name='code' value='0x807D6A95'>A-B</button>
+<br>
+<button type='submit' name='code' value='0x807D7887'>■</button>
+<button type='submit' name='code' value='0x807DA857'>↑</button>
+<button type='submit' name='code' value='0x807D926D'>||</button>
+<br>
+<button type='submit' name='code' value='0x807DE817'>←</button>
+<button type='submit' name='code' value='0x807D28D7'>〇</button>
+<button type='submit' name='code' value='0x807D18E7'>→</button>
+<br>
+<button type='submit' name='code' value='0x807DAF5'>POP</button>
+<button type='submit' name='code' value='0x807D6897'>↓</button>
+<button type='submit' name='code' value='0x807DE01F'>戻る</button>
+<br><br>
+<button type='submit' name='code' value='0x807D9867'>|<<</button>
+<button type='submit' name='code' value='0x807D58A7'>>>|</button>
+<button type='submit' name='code' value='0x80738C7D'><<</button>
+<button type='submit' name='code' value='0x807DD827'>>></button>
+<br>
+<button type='submit' name='code' value='0x807D12ED'>|></button>
+<button type='submit' name='code' value='0x807D8A75'>画面</button>
+<button type='submit' name='code' value='0x807D20DF'>TOP</button>
+<button type='submit' name='code' value='0x807D728D'>HOME</button>
+<br>
+<button type='submit' name='code' value='0x807D2AD5'><30</button>
+<button type='submit' name='code' value='0x807DB24D'>30></button>
+<button type='submit' name='code' value='0x807D40BF'>消音</button>
+<br><br>
+<button type='submit' name='code' value='0x807D1AE5'>サブ</button>
+<button type='submit' name='code' value='0x807DE21D'>字幕</button>
+<button type='submit' name='code' value='0x807DC03F'>音声</button>
+
+</form>
+
+<br>
+<form action=''>
+RECV:********
+<button type='submit'>表示</button>
+</form>
+<a href='index.html'>TOP画面に戻る</a>
+</div>
+</body>
+</html>
